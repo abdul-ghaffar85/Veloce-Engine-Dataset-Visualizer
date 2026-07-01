@@ -1,0 +1,69 @@
+# ─── Python ───────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+*.whl
+
+# ─── Virtual Environments ────────────────────────────────
+.venv/
+venv/
+env/
+ENV/
+
+# ─── Environment Variables / Secrets ─────────────────────
+.env
+.env.local
+.env.production
+.env.staging
+
+# ─── IDE / Editor ────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# ─── Testing ─────────────────────────────────────────────
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+
+# ─── Logs ────────────────────────────────────────────────
+logs/
+*.log
+
+# ─── Uploads / Data ─────────────────────────────────────
+uploads/
+data/storage/
+*.csv
+*.xlsx
+*.xls
+!tests/fixtures/*.csv
+!tests/fixtures/*.xlsx
+
+# ─── Database ────────────────────────────────────────────
+*.db
+*.sqlite3
+
+# ─── Alembic ─────────────────────────────────────────────
+alembic/versions/*.pyc
+
+# ─── Node / Frontend ────────────────────────────────────
+node_modules/
+frontend/dist/
+frontend/.cache/
+
+# ─── OS ──────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
